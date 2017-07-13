@@ -74,7 +74,7 @@ module.exports = {
         "no-labels"                    : "error",
         "no-lone-blocks"               : "error",
         "no-loop-func"                 : "error",
-        "no-magic-numbers"             : "warn",
+        "no-magic-numbers"             : 0,
         "no-multi-spaces"              : 0,
         "no-multi-str"                 : 0,
         "no-new"                       : "warn",
@@ -112,6 +112,20 @@ module.exports = {
 
         // strict section
         "strict"                       : 0,
+
+        // variable section
+        "init-declarations"            : "warn",
+        "no-catch-shadow"              : "error",
+        "no-delete-var"                : "error",
+        "no-label-var"                 : "error",
+        "no-restricted-globals"        : 0,
+        "no-shadow"                    : "error",
+        "no-shadow-restricted-names"   : "error",
+        "no-undef"                     : "error",
+        "no-undef-init"                : "warn",
+        "no-undefined"                 : "error",
+        "no-unused-vars"               : "warn",
+        "no-use-before-define"         : "error",
 
         // stylistic issues section
         "semi"                         : ["error", "always"]
