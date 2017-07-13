@@ -1,6 +1,8 @@
 module.exports = {
 
     rules: {
+
+        // possible errors section
         "for-direction"               : 0,
         "getter-return"               : "error",
         "no-await-in-loop"            : "warn",
@@ -35,7 +37,29 @@ module.exports = {
         "use-isnan"                   : "error",
         "valid-jsdoc"                 : "warn",
         "valid-typeof"                : "error",
+
+        // best practices section
+        "accessor-pairs"              : [ "error", { "setWithoutGet": true, "getWithoutSet": false } ],
+        "array-callback-return"       : 0,
+        "block-scoped-var"            : "error",
+        "class-methods-use-this"      : "warn",
+        "complexity"                  : [ "warn", 20 ],
+        "consistent-return"           : "error",
+        "curly"                       : "warn",
+        "default-case"                : "warn",
+        "dot-location"                : 0,
+        "dot-notation"                : [ "warn", { "allowKeywords": false } ],
+        "eqeqeq"                      : [ "warn", "always" ],
+        "guard-for-in"                : "error",
+        "no-alert"                    : "warn",
+        "no-caller"                   : "error",
+        "no-case-declarations"        : "error",
+        "no-div-regex"                : 0,
+
+        // stylistic issues section
         "semi"                        : ["error", "always"]
+
+
     }
 
 };
