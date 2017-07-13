@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-stonecypher",
+  "version": "1.0.0",
+  "description": "StoneCypher's standard eslint config, currently configured to eslint 4.2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneCypher/eslint-config-stonecypher.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "stonecypher"
+  ],
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/eslint-config-stonecypher/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "homepage": "https://github.com/StoneCypher/eslint-config-stonecypher#readme"
+}
