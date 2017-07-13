@@ -123,7 +123,7 @@ module.exports = {
         "no-shadow-restricted-names"   : "error",
         "no-undef"                     : "error",
         "no-undef-init"                : "warn",
-        "no-undefined"                 : "error",
+        "no-undefined"                 : 0,
         "no-unused-vars"               : "warn",
         "no-use-before-define"         : "error",
 
