@@ -262,7 +262,26 @@ module.exports = {
         "promise/prefer-await-to-callbacks" : 0,
 
         // eslint-plugin-new-with-error
-        "new-with-error/new-with-error"     : "warn"
+        "new-with-error/new-with-error"     : "warn",
+
+        // eslint-plugin-fp
+        "fp/no-arguments"                   : "warn",
+        "fp/no-class"                       : 0,
+        "fp/no-delete"                      : 0,
+        "fp/no-events"                      : 0,
+        "fp/no-get-set"                     : "warn",
+        "fp/no-let"                         : 0,
+        "fp/no-loops"                       : "warn",
+        "fp/no-mutating-assign"             : 0,
+        "fp/no-mutating-methods"            : 0,
+        "fp/no-mutation"                    : 0,
+        "fp/no-nil"                         : 0,
+        "fp/no-proxy"                       : "warn",
+        "fp/no-rest-parameters"             : 0,
+        "fp/no-this"                        : 0,
+        "fp/no-throw"                       : 0,
+        "fp/no-unused-expression"           : 0,
+        "fp/no-valueof-field"               : "warn"
 
     }
 
