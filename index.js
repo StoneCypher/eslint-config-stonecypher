@@ -148,6 +148,7 @@ module.exports = {
         "id-blacklist"                 : 0,
         "id-length"                    : 0,
         "id-match"                     : 0,
+        "indent"                       : 0,
 
         "semi"                         : ["error", "always"]
 
