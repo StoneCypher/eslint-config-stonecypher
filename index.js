@@ -188,9 +188,32 @@ module.exports = {
         "no-whitespace-before-property"    : 0,
         "nonblock-statement-body-position" : 0,
         "object-curly-newline"             : 0,
-
-        "semi"                             : ["error", "always"]
-
+        "object-curly-spacing"             : 0,
+        "object-property-newline"          : 0,
+        "one-var"                          : "warn",
+        "one-var-declaration-per-line"     : 0,
+        "operator-assignment"              : "warn",
+        "operator-linebreak"               : ["warn", "before"],
+        "padded-blocks"                    : 0,
+        "padding-line-between-statements"  : 0,
+        "quote-props"                      : ["warn", "always"],
+        "quotes"                           : 0,
+        "require-jsdoc"                    : 0,
+        "semi"                             : ["warn", "always"],
+        "semi-spacing"                     : 0,
+        "semi-style"                       : ["warn", "last"],
+        "sort-keys"                        : "warn",
+        "sort-vars"                        : 0,
+        "space-before-blocks"              : "warn",
+        "space-before-function-paren"      : ["warn", "never"],
+        "space-in-parens"                  : 0,
+        "space-infix-ops"                  : 0,
+        "space-unary-ops"                  : 0,
+        "spaced-comment"                   : 0,
+        "switch-colon-spacing"             : 0,
+        "template-tag-spacing"             : ["warn", "never"],
+        "unicode-bom"                      : 0,
+        "wrap-regex"                       : 0
 
     }
 
