@@ -196,7 +196,7 @@ module.exports = {
         "operator-linebreak"               : ["warn", "before"],
         "padded-blocks"                    : 0,
         "padding-line-between-statements"  : 0,
-        "quote-props"                      : ["warn", "always"],
+        "quote-props"                      : 0,
         "quotes"                           : 0,
         "require-jsdoc"                    : 0,
         "semi"                             : ["warn", "always"],
@@ -213,7 +213,29 @@ module.exports = {
         "switch-colon-spacing"             : 0,
         "template-tag-spacing"             : ["warn", "never"],
         "unicode-bom"                      : 0,
-        "wrap-regex"                       : 0
+        "wrap-regex"                       : 0,
+
+        // es6 specific
+        "arrow-body-style"                 : ["warn", "as-needed"],
+        "arrow-parens"                     : ["warn", "as-needed"],
+        "arrow-spacing"                    : ["warn", "always", { "before": true, "after": true }],
+        "constructor-super"                : "error",
+        "generator-star-spacing"           : ["warn", {"before": false, "after": true}],
+        "no-class-assign"                  : "error",
+        "no-confusing-arrow"               : 0,
+        "no-const-assign"                  : "error",
+        "no-dupe-class-members"            : "error",
+        "no-duplicate-imports"             : "warn",
+        "no-new-symbol"                    : "error",
+        "no-restricted-imports"            : 0,
+        "no-this-before-super"             : "error",
+        "no-useless-computed-key"          : "warn",
+        "no-useless-constructor"           : 0,
+        "no-useless-rename"                : "warn",
+        "no-var"                           : "warn",
+        "object-shorthand"                 : "warn",
+        "prefer-arrow-callback"            : "warn",
+        "prefer-const"                     : "warn"
 
     }
 
