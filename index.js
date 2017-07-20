@@ -55,7 +55,7 @@ module.exports = {
         "no-caller"                    : "error",
         "no-case-declarations"         : "error",
         "no-div-regex"                 : 0,
-        "no-else-return"               : "warn",
+        "no-else-return"               : 0,
         "no-empty-function"            : "warn",
         "no-empty-pattern"             : "error",
         "no-eq-null"                   : "error",
@@ -124,7 +124,7 @@ module.exports = {
         "no-undef"                     : "error",
         "no-undef-init"                : "warn",
         "no-undefined"                 : 0,
-        "no-unused-vars"               : "warn",
+        "no-unused-vars"               : ["warn", { argsIgnorePattern: "^_", varsIgnorePattern: "^_", caughtErrors: "all", caughtErrorsIgnorePattern: "^_" }],
         "no-use-before-define"         : "error",
 
         // stylistic issues section
@@ -132,8 +132,8 @@ module.exports = {
         "array-bracket-spacing"        : 0,
         "array-element-newline"        : 0,
         "block-spacing"                : ["warn",  "always"],
-        "brace-style"                  : ["warn",  "1tbs", { "allowSingleLine": true }],
-        "camelcase"                    : "warn",
+        "brace-style"                  : 0,
+        "camelcase"                    : 0,
         "capitalized-comments"         : 0,
         "comma-dangle"                 : ["warn",  "never"],
         "comma-spacing"                : ["warn",  { "before": false, "after": true }],
