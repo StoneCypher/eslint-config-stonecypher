@@ -128,6 +128,27 @@ module.exports = {
         "no-use-before-define"         : "error",
 
         // stylistic issues section
+        "array-bracket-newline"        : 0,
+        "array-bracket-spacing"        : 0,
+        "array-element-newline"        : 0,
+        "block-spacing"                : ["warn",  "always"],
+        "brace-style"                  : ["warn",  "1tbs", { "allowSingleLine": true }],
+        "camelcase"                    : "warn",
+        "capitalized-comments"         : 0,
+        "comma-dangle"                 : ["warn",  "never"],
+        "comma-spacing"                : ["warn",  { "before": false, "after": true }],
+        "comma-style"                  : ["warn",  "last"],
+        "computed-property-spacing"    : 0,
+        "consistent-this"              : "warn",
+        "eol-last"                     : ["warn", "always"],
+        "func-call-spacing"            : 0,
+        "func-name-matching"           : 0,
+        "func-names"                   : "warn",
+        "func-style"                   : 0,
+        "id-blacklist"                 : 0,
+        "id-length"                    : 0,
+        "id-match"                     : 0,
+
         "semi"                         : ["error", "always"]
 
 
