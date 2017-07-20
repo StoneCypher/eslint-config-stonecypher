@@ -202,7 +202,7 @@ module.exports = {
         "semi"                             : ["warn", "always"],
         "semi-spacing"                     : 0,
         "semi-style"                       : ["warn", "last"],
-        "sort-keys"                        : "warn",
+        "sort-keys"                        : 0,
         "sort-vars"                        : 0,
         "space-before-blocks"              : "warn",
         "space-before-function-paren"      : ["warn", "never"],
@@ -218,7 +218,7 @@ module.exports = {
         // es6 specific
         "arrow-body-style"                 : ["warn", "as-needed"],
         "arrow-parens"                     : ["warn", "as-needed"],
-        "arrow-spacing"                    : ["warn", "always", { "before": true, "after": true }],
+        "arrow-spacing"                    : ["warn", { "before": true, "after": true }],
         "constructor-super"                : "error",
         "generator-star-spacing"           : ["warn", {"before": false, "after": true}],
         "no-class-assign"                  : "error",
@@ -235,7 +235,18 @@ module.exports = {
         "no-var"                           : "warn",
         "object-shorthand"                 : "warn",
         "prefer-arrow-callback"            : "warn",
-        "prefer-const"                     : "warn"
+        "prefer-const"                     : "warn",
+        "prefer-destructuring"             : "warn",
+        "prefer-numeric-literals"          : "warn",
+        "prefer-rest-params"               : "warn",
+        "prefer-spread"                    : "warn",
+        "prefer-template"                  : "warn",
+        "require-yield"                    : "warn",
+        "rest-spread-spacing"              : 0,
+        "sort-imports"                     : 0,
+        "symbol-description"               : "warn",
+        "template-curly-spacing"           : 0,
+        "yield-star-spacing"               : ["warn", "after"]
 
     }
 

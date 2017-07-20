@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stonecypher",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "StoneCypher's standard eslint config, currently configured to eslint 4.2.0",
   "main": "index.js",
   "scripts": {
