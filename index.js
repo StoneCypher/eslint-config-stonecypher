@@ -6,6 +6,8 @@ module.exports = {
         }
     },
 
+    plugins: [ 'fp', 'new-with-error', 'unicorn', 'fp', 'promise' ],
+
     rules: {
 
         // possible errors section
