@@ -159,7 +159,7 @@ module.exports = {
         "key-spacing"                               : 0,
         "keyword-spacing"                           : 0,
         "line-comment-position"                     : 0,
-        "linebreak-style"                           : ["warn", "unix"],
+        "linebreak-style"                           : 0,
         "lines-around-comment"                      : 0,
         "max-depth"                                 : ["warn", 5],
         "max-len"                                   : ["warn", 120, 4],
