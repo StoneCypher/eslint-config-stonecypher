@@ -1,14 +1,14 @@
 module.exports = {
 
-    settings    : {
-        flowtype    : {
+    settings : {
+        flowtype : {
             onlyFilesWithFlowAnnotation    : true
         }
     },
 
-    plugins    : [ 'fp', 'new-with-error', 'unicorn', 'flowtype', 'promise', 'ava' ],
+    plugins : [ 'fp', 'new-with-error', 'unicorn', 'flowtype', 'promise', 'ava', 'jsdoc' ],
 
-    rules    : {
+    rules : {
 
         // possible errors section
         "for-direction"                                 : 0,
