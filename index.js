@@ -6,7 +6,7 @@ module.exports = {
         }
     },
 
-    plugins: [ 'fp', 'new-with-error', 'unicorn', 'fp', 'promise', 'ava' ],
+    plugins: [ 'fp', 'new-with-error', 'unicorn', 'flowtype', 'promise', 'ava' ],
 
     rules: {
 
