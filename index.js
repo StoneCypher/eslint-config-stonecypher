@@ -6,7 +6,7 @@ module.exports = {
         }
     },
 
-    plugins : [ 'fp', 'new-with-error', 'unicorn', 'flowtype', 'promise', 'ava', 'jsdoc' ],
+    plugins : [ 'fp', 'new-with-error', 'unicorn', 'flowtype', 'promise', 'ava', 'jsdoc', 'react' ],
 
     rules : {
 
@@ -164,7 +164,7 @@ module.exports = {
         "linebreak-style"                               : 0,
         "lines-around-comment"                          : 0,
         "max-depth"                                     : ["warn", 5],
-        "max-len"                                       : ["warn", 120, 4],
+        "max-len"                                       : ["warn", 120, 4, {"ignoreComments": true}],
         "max-lines"                                     : ["warn", 10000],
         "max-nested-callbacks"                          : ["warn", 5],
         "max-params"                                    : ["warn", 8],
@@ -371,7 +371,11 @@ module.exports = {
         "jsdoc/require-param-description"               : 1,
         "jsdoc/require-param-type"                      : 1,
         "jsdoc/require-returns-description"             : 1,
-        "jsdoc/require-returns-type"                    : 1
+        "jsdoc/require-returns-type"                    : 1,
+
+        // eslint-plugin-react
+
+        // eslint-plugin-jsx/a11y
 
     }
 
