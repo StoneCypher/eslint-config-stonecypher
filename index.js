@@ -244,7 +244,7 @@ module.exports = {
         "object-shorthand"                              : "warn",
         "prefer-arrow-callback"                         : "warn",
         "prefer-const"                                  : "warn",
-        "prefer-destructuring"                          : "warn",
+        "prefer-destructuring"                          : 0,
         "prefer-numeric-literals"                       : "warn",
         "prefer-rest-params"                            : "warn",
         "prefer-spread"                                 : "warn",
