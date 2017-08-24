@@ -374,7 +374,8 @@ module.exports = {
         "jsdoc/require-returns-type"                    : 1,
 
         // eslint-plugin-react
-        "react/jsx-uses-react"                          : 1
+        "react/jsx-uses-react"                          : 1,
+        "react/jsx-uses-vars"                           : 1
 
         // eslint-plugin-jsx/a11y
 
