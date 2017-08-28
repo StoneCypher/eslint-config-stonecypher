@@ -318,7 +318,7 @@ module.exports = {
         "flowtype/no-dupe-keys"                         : "error",
         "flowtype/no-primitive-constructor-types"       : "warn",
         "flowtype/no-types-missing-file-annotation"     : "error",
-        "flowtype/no-weak-types"                        : [ "warn", [{"Function": false }] ],
+        "flowtype/no-weak-types"                        : [ "warn", {"Function": false } ],
         "flowtype/object-type-delimiter"                : [ "warn", "comma" ],
         "flowtype/require-parameter-type"               : [ "warn", { "excludeArrowFunctions" : "expressionsOnly" } ],
         "flowtype/require-return-type"                  : "warn", // [ "error", "always", { "annotateUndefined" : "never" } ],
