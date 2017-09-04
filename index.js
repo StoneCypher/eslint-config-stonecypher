@@ -178,7 +178,7 @@ module.exports = {
         "no-bitwise"                                    : "warn",
         "no-continue"                                   : "warn",
         "no-inline-comments"                            : 0,
-        "no-lonely-if"                                  : "warn",
+        "no-lonely-if"                                  : 0,
         "no-mixed-operators"                            : "warn",
         "no-mixed-spaces-and-tabs"                      : "warn",
         "no-multi-assign"                               : 0,
@@ -360,22 +360,24 @@ module.exports = {
         "ava/use-true-false"                            : "error",
 
         // eslint-plugin-jsdoc
-        "jsdoc/check-param-names"                       : 1,
-        "jsdoc/check-tag-names"                         : 1,
-        "jsdoc/check-types"                             : 1,
-        "jsdoc/newline-after-description"               : 1,
-        "jsdoc/require-description-complete-sentence"   : 1,
-        "jsdoc/require-example"                         : 1,
-        "jsdoc/require-hyphen-before-param-description" : 1,
-        "jsdoc/require-param"                           : 1,
-        "jsdoc/require-param-description"               : 1,
-        "jsdoc/require-param-type"                      : 1,
-        "jsdoc/require-returns-description"             : 1,
-        "jsdoc/require-returns-type"                    : 1,
+        "jsdoc/check-param-names"                       : "warn",
+        "jsdoc/check-tag-names"                         : "warn",
+        "jsdoc/check-types"                             : "warn",
+        "jsdoc/newline-after-description"               : "warn",
+        "jsdoc/require-description-complete-sentence"   : "warn",
+        "jsdoc/require-example"                         : "warn",
+        "jsdoc/require-hyphen-before-param-description" : "warn",
+        "jsdoc/require-param"                           : "warn",
+        "jsdoc/require-param-description"               : "warn",
+        "jsdoc/require-param-type"                      : "warn",
+        "jsdoc/require-returns-description"             : "warn",
+        "jsdoc/require-returns-type"                    : "warn",
 
         // eslint-plugin-react
-        "react/jsx-uses-react"                          : 1,
-        "react/jsx-uses-vars"                           : 1
+        "react/boolean-prop-naming"                     : ["warn", { "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+" }],
+        "react/default-props-match-prop-types"          : ["warn", { "allowRequiredDefaults": true }],
+        "react/jsx-uses-react"                          : "warn",
+        "react/jsx-uses-vars"                           : "warn"
 
         // eslint-plugin-jsx/a11y
 
