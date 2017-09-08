@@ -416,7 +416,7 @@ module.exports = {
 
         // eslint-plugin-react jsx
         "react/jsx-boolean-value"                       : "warn",
-        "react/jsx-closing-bracket-location",           : ["warn", "tag-aligned"],
+        "react/jsx-closing-bracket-location"            : ["warn", "tag-aligned"],
         "react/jsx-closing-tag-location"                : "warn",
         "react/jsx-curly-spacing"                       : 0,
         "react/jsx-equals-spacing"                      : 0,
