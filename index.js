@@ -423,7 +423,7 @@ module.exports = {
         "react/jsx-filename-extension"                  : ["warn", { "extensions": [".js"] }],
         "react/jsx-first-prop-new-line"                 : ["warn", "never"],
         "react/jsx-handler-names"                       : 0,
-        "react/jsx-indent"                              : ["warn, 2"],
+        "react/jsx-indent"                              : ["warn", 2],
         "react/jsx-indent-props"                        : 0,
         "react/jsx-key"                                 : "warn",
         "react/jsx-max-props-per-line"                  : 0,
