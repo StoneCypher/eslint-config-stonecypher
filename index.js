@@ -412,7 +412,7 @@ module.exports = {
         "react/sort-comp"                               : "warn",
         "react/sort-prop-types"                         : "warn",
         "react/style-prop-object"                       : "error",
-        "react/void-dom-elements-no-children"           : "error"
+        "react/void-dom-elements-no-children"           : "error",
 
         // eslint-plugin-react jsx
 
