@@ -102,7 +102,7 @@ module.exports = {
         "no-sequences"                                  : "warn",
         "no-throw-literal"                              : "warn",
         "no-unmodified-loop-condition"                  : "warn",
-        "no-unused-expressions"                         : "warn",
+        "no-unused-expressions"                         : 0,
         "no-unused-labels"                              : "warn",
         "no-useless-call"                               : "warn",
         "no-useless-concat"                             : "warn",
@@ -318,7 +318,7 @@ module.exports = {
         "flowtype/no-dupe-keys"                         : "error",
         "flowtype/no-primitive-constructor-types"       : "warn",
         "flowtype/no-types-missing-file-annotation"     : "error",
-        "flowtype/no-weak-types"                        : [ "warn", {"Function": false } ],
+        "flowtype/no-weak-types"                        : [ "warn", { "Function": false } ],
         "flowtype/object-type-delimiter"                : [ "warn", "comma" ],
         "flowtype/require-parameter-type"               : [ "warn", { "excludeArrowFunctions" : "expressionsOnly" } ],
         "flowtype/require-return-type"                  : "warn", // [ "error", "always", { "annotateUndefined" : "never" } ],
@@ -373,10 +373,10 @@ module.exports = {
         "jsdoc/require-returns-description"             : "warn",
         "jsdoc/require-returns-type"                    : "warn",
 
-        // eslint-plugin-react
+        // eslint-plugin-react non-jsx
         "react/boolean-prop-naming"                     : ["warn", { "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+" }],
         "react/default-props-match-prop-types"          : ["warn", { "allowRequiredDefaults": true }],
-        "react/display-name"                            : ["warn", { "ignoreTranspilerName": true }],
+        "react/display-name"                            : "warn",
         "react/forbid-component-props"                  : 0,
         "react/forbid-elements"                         : 0,
         "react/forbid-prop-types"                       : 0,
@@ -403,6 +403,18 @@ module.exports = {
         "react/no-will-update-set-state"                : "error",
         "react/prefer-es6-class"                        : 0,
         "react/prefer-stateless-function"               : ["warn", { "ignorePureComponents": true }],
+        "react/prop-types"                              : "warn",
+        "react/react-in-jsx-scope"                      : "warn",
+        "react/require-default-props"                   : "warn",
+        "react/require-optimization"                    : "warn",
+        "react/require-render-return"                   : "error",
+        "react/self-closing-comp"                       : "warn",
+        "react/sort-comp"                               : "warn",
+        "react/sort-prop-types"                         : "warn",
+        "react/style-prop-object"                       : "error",
+        "react/void-dom-elements-no-children"           : "error"
+
+        // eslint-plugin-react jsx
 
         "react/jsx-uses-react"                          : "warn",
         "react/jsx-uses-vars"                           : "warn"
