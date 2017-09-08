@@ -433,7 +433,7 @@ module.exports = {
         "react/jsx-no-literals"                         : 0,
         "react/jsx-no-target-blank"                     : "error",
         "react/jsx-no-undef"                            : "warn",
-        "react/jsx-curly-brace-presence"                : ["warn", "never"],
+//      "react/jsx-curly-brace-presence"                : ["warn", "never"],
         "react/jsx-pascal-case"                         : "warn",
         "react/jsx-sort-props"                          : ["warn", { "callbacksLast": true, "shorthandFirst": true, "ignoreCase": true }],
         "react/jsx-tag-spacing"                         : ["warn", { "closingSlash": "never", "beforeSelfClosing": "always", "afterOpening": "never" }],
