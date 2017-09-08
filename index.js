@@ -415,9 +415,31 @@ module.exports = {
         "react/void-dom-elements-no-children"           : "error",
 
         // eslint-plugin-react jsx
-
+        "react/jsx-boolean-value"                       : "warn",
+        "react/jsx-closing-bracket-location",           : ["warn", "tag-aligned"],
+        "react/jsx-closing-tag-location"                : "warn",
+        "react/jsx-curly-spacing"                       : 0,
+        "react/jsx-equals-spacing"                      : 0,
+        "react/jsx-filename-extension"                  : ["warn", { "extensions": [".js"] }],
+        "react/jsx-first-prop-new-line"                 : ["warn", "never"],
+        "react/jsx-handler-names"                       : 0,
+        "react/jsx-indent"                              : ["warn, 2"],
+        "react/jsx-indent-props"                        : 0,
+        "react/jsx-key"                                 : "warn",
+        "react/jsx-max-props-per-line"                  : 0,
+        "react/jsx-no-bind"                             : ["warn", { "allowArrowFunctions": true }],
+        "react/jsx-no-comment-textnodes"                : "warn",
+        "react/jsx-no-duplicate-props"                  : "error",
+        "react/jsx-no-literals"                         : 0,
+        "react/jsx-no-target-blank"                     : "error",
+        "react/jsx-no-undef"                            : "warn",
+        "react/jsx-curly-brace-presence"                : ["warn", "never"],
+        "react/jsx-pascal-case"                         : "warn",
+        "react/jsx-sort-props"                          : ["warn", { "callbacksLast": true, "shorthandFirst": true, "ignoreCase": true }],
+        "react/jsx-tag-spacing"                         : ["warn", { "closingSlash": "never", "beforeSelfClosing": "always", "afterOpening": "never" }],
         "react/jsx-uses-react"                          : "warn",
-        "react/jsx-uses-vars"                           : "warn"
+        "react/jsx-uses-vars"                           : "warn",
+        "react/jsx-wrap-multilines"                     : 0
 
         // eslint-plugin-jsx/a11y
 
