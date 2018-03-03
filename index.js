@@ -393,7 +393,7 @@ module.exports = {
         "react/no-is-mounted"                           : "error",
         "react/no-multi-comp"                           : 0,
         "react/no-redundant-should-component-update"    : "error",
-        "react/no-render-return-value"                  : "error",
+        "react/no-render-return-value"                  : 0,
         "react/no-set-state"                            : "warn",
         "react/no-typos"                                : "warn",
         "react/no-string-refs"                          : "error",
