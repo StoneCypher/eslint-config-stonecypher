@@ -403,7 +403,7 @@ module.exports = {
         "react/no-will-update-set-state"                : "error",
         "react/prefer-es6-class"                        : 0,
         "react/prefer-stateless-function"               : ["warn", { "ignorePureComponents": true }],
-        "react/prop-types"                              : "warn",
+        "react/prop-types"                              : 0,
         "react/react-in-jsx-scope"                      : "warn",
         "react/require-default-props"                   : "warn",
         "react/require-optimization"                    : "warn",
