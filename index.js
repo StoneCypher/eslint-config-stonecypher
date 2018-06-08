@@ -129,7 +129,7 @@ module.exports = {
         "no-restricted-globals"                         : 0,
         "no-shadow"                                     : "error",
         "no-shadow-restricted-names"                    : "error",
-        "no-undef"                                      : "error",
+        "no-undef"                                      : 0,
         "no-undef-init"                                 : "warn",
         "no-undefined"                                  : 0,
         "no-unused-vars"                                : [ "warn", { argsIgnorePattern : "^_", varsIgnorePattern : "^_", caughtErrors : "all", caughtErrorsIgnorePattern : "^_" } ],
